@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestClasses.CheckAccountCreation">
+      <class name="TestClasses.CheckAccountCreationTest">
         <methods>
           <include name="openWebSite"/>
+          <include name="openBrowser"/>
           <include name="createPomObject"/>
           <include name="checkEmailErrorMessage"/>
-          <include name="openBrowser"/>
         </methods>
-      </class> <!-- TestClasses.CheckAccountCreation -->
+      </class> <!-- TestClasses.CheckAccountCreationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
