@@ -4,6 +4,7 @@ public class CheckPrimeNo {
 
 	public static void main(String[] args) {
 		//here change
+		//change from ide and push in mybranch
 		int no = 241;
 		int temp =0;
 		for(int i=2;i<=no-1;i++)
